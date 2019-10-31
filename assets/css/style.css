@@ -134,6 +134,28 @@ h1 {
 	top: 50px;
 	left: 64px;
 }
+.hero-menu h1 {
+	font-size: 30px;
+	font-weight: normal;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	bottom: 60px;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+.hero-menu p {
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+	
+}
 button
 {
     display: flex;
@@ -150,3 +172,148 @@ button
     position: relative;
     top: 20px;
 }	
+.added {
+	background-color: #ECF0F1;
+	border-color: #ECF0F1;
+	color: #BDC3C7;
+	}
+	
+	button:hover {
+		background-color: #BADC58;
+		color: white;
+		transition: 300ms color ease;
+	}
+	
+	
+	
+	.hero-menu img {
+		justify-content: center;
+		align-items: center;
+		align-items: center;
+			display: flex;
+			position: relative;
+			padding-bottom: 35px;
+	
+		
+		
+	
+	}
+	.hero-menu li {
+		width: 308px;
+		height: 500px;
+		position: relative;
+		bottom: 60px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+			
+	}
+	.hero-menu li:hover {
+		transition: 200ms;
+	  border-radius: 20px;
+	  box-shadow: 0px 3px 6px 0px #707070;
+	  background-color: #ffffff;
+	}
+	
+	
+	.h2 {
+		display: flex;
+		justify-content: center;
+		align-content: space-around;
+		padding-bottom: 24px;
+	}
+	.hero-menu {
+		border: 1px solid #707070;
+		width: 100%;
+		height: calc(100% - 100px);
+		box-shadow: 0px 3px 6px 0px #707070;
+		display: flex;
+		background-color: #ffffff;
+		flex-wrap:  wrap;
+		justify-content: center;
+		position: relative;
+	}
+	
+	.pasta {
+		 display: flex;
+		flex-wrap: wrap;
+		width: 1084px;
+		justify-content: space-around;
+		margin-top: 50px;
+	}
+	
+	footer::before{
+		content: url('../images/basil2.png');
+		position: absolute;
+		left: -800px;
+		top: -388px;
+		z-index: -1;
+		width: 322px;
+		height: 222px;
+	}
+	
+	.hero-menu::before {
+		content: '';
+		display: block;
+		width: 100%;
+		height: 55px;
+		position: relative;
+		top: -55px;
+		background-color: #FFF;
+		border-top-left-radius:20px;
+		border-top-right-radius: 20px;
+	}
+	.hero-menu::after {
+		content: '';
+		display: block;
+		width:  100%;
+		height: 56px;
+		background-color: #fff;
+		position: absolute;
+		bottom: -50px;
+		z-index: 5;
+		border-bottom-right-radius:20px;
+		border-bottom-left-radius: 20px;
+	}
+	footer {
+		background-color: #292C2F;
+		width: 100%;
+		height: 557px;
+		position: absolute;
+		left: 0;  
+		 display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+		box-sizing: border-box;
+	}
+	
+	address{
+	font-style: normal;
+		color:#F59A63; 
+		border-radius: 15px;
+		background-color: white;
+		width: 72%;
+		height: 60px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		margin: 0 auto;
+		margin-top: 90px;
+	
+	
+	}
+	iframe {
+		width: 72%;
+		height: 55%;
+		border-radius: 15px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		margin: 0	 auto;
+		margin-top: 10px;
+	}
